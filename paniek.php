@@ -13,35 +13,39 @@
       <a class="clean-link" href="paniek.php">Er heerst paniek...</a>
       <a class="clean-link" href="onkunde.php">Onkunde</a>
     </div>
-    <h2>Onkunde</h2>
-    <form action="/madLibs/onkundeUitkomst.php" class="content">
+    <h2>Er heerst paniek...</h2>
+    <form action="/madLibs/paniekUitkomst.php" class="content">
       <div class="fields">
-        <label for="Kunnen">Wat wil je kunnen?</label>
-        <input type="text" id="Kunnen" name="Kunnen" class="input" required ><br>
+        <label for="Dier">Welk dier zou je nooit als huisdier willen hebben?</label>
+        <input type="text" id="Dier" name="Dier" class="input" required ><br>
       </div>
       <div class="fields">
-        <label for="Persoon">Met welke persoon kun je goed opschieten?</label>
+        <label for="Persoon">Wie is het belangrijkste persoon in je leven?</label>
         <input type="text" id="Persoon" name="Persoon" class="input" required><br>
       </div>
       <div class="fields">
-        <label for="favorietGetal">Wat is je favoriete getal?</label>
-        <input type="text" id="favorietGetal" name="favorietGetal" class="input" required><br>
+        <label for="Land">In welk land zou je willen wonen?</label>
+        <input type="text" id="Land" name="Land" class="input" required><br>
       </div>
       <div class="fields">
-        <label for="Vakantie">Wat heb je altijd bij als je op vakantie gaat?</label>
-        <input type="text" id="Vakantie" name="Vakantie" class="input" required><br>
+        <label for="Verveelt">Wat doe je als je je verveelt?</label>
+        <input type="text" id="Verveelt" name="Verveelt" class="input" required><br>
       </div>
       <div class="fields">
-        <label for="BesteEigenschap">Wat is je beste persoonlijke eigenschap?</label>
-        <input type="text" id="BesteEigenschap" name="BesteEigenschap" class="input" required><br>
+        <label for="Speelgoed">Met welk speelgoed speelde je het meest als kind?</label>
+        <input type="text" id="Speelgoed" name="Speelgoed" class="input" required><br>
       </div>
       <div class="fields">
-        <label for="SlechtsteEigenschap">Wat is je slechtste persoonlijke eigenschap?</label>
-        <input type="text" id="SlechtsteEigenschap" name="SlechtsteEigenschap" class="input" required><br>
+        <label for="Spijbelen">Bij welke docent spijbel je het liefst?</label>
+        <input type="text" id="Spijbelen" name="Spijbelen" class="input" required><br>
       </div>
       <div class="fields">
-        <label for="Overkomen">Wat is je slechtste wat je kan overkomen?</label>
-        <input type="text" id="Overkomen" name="Overkomen" class="input" required><br>
+        <label for="Kopen">Als je $100.000,- had wat zou je dan kopen?</label>
+        <input type="text" id="Kopen" name="Kopen" class="input" required><br>
+      </div>
+      <div class="fields">
+        <label for="Bezigheid">Wat is je favoriete bezigheid?</label>
+        <input type="text" id="Bezigheid" name="Bezigheid" class="input" required><br>
       </div>
       <input type="submit" class="submit" value="Versturen">
   </form>
