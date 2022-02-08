@@ -28,21 +28,13 @@
 
 ?>
 <body>
-    <h1>MAD LIBS</h1>
     <div class="blok">
-        <div class="nav">
-            <a class="clean-link" href="paniek.php">Er heerst paniek...</a>
-            <a class="clean-link" href="onkunde.php">Onkunde</a>
-        </div>
-        <h2>Onkunde</h2>
+
         <p class='content'>
             <?php print('Er zijn veel mensen die niet kunnen '.$Kunnen['value'].'. Neem nou '.$Persoon['value'].'. Zelfs met de hulp van een '.$Vakantie['value'].' of zelfs '.$favorietGetal['value'].' kan '.$Persoon['value'].' niet '.$Kunnen['value'].'. Dat heeft niet te maken met een gebrek aan '.$SlechtsteEigenschap['value'].', maar met een te veel aan '.$BesteEigenschap['value'].'. Te veel '.$BesteEigenschap['value'].' leidt tot '.$Overkomen['value'].' en dat is niet goed als je wilt '.$Kunnen['value'].'., Helaas voor '.$Persoon['value']);
             ?>
             
         </p>
-        <div class="footer">
-            <p class="foottext">Deze website is gemaakt door Guylano</p>
-        </div>
     </div>
 </body>
 </html>

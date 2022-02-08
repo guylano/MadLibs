@@ -1,5 +1,5 @@
 body{
-	background-color: darkgray;
+	background-color: #a9a9a9;
 }
 
 .blok{
@@ -45,8 +45,8 @@ a{
 
 .submit{
 	margin-left: 375px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
 }
 
 h2{
@@ -61,4 +61,17 @@ h1{
 	font-size: 80px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	color: white;
+}
+
+.footer{
+
+	background-color: black;
+	text-align: center;
+	height: 30px;
+}
+
+.foottext{
+	padding-top: 5px;
+	color: white;
 }
