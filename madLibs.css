@@ -1,0 +1,64 @@
+body{
+	background-color: darkgray;
+}
+
+.blok{
+	background-color: white;
+	width: 600px;
+	margin: 0 auto;
+	
+}
+
+.clean-link{
+	color: black;
+	text-decoration: none;
+
+}
+.clean-link:hover {
+ 	color: lightblue; 
+}
+
+a{
+	margin-left: 10px ;
+}
+
+.nav{
+	background-color: red;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.content{
+	margin: 30px;
+	margin-top: 15px ;
+}
+
+.input{
+	float: right;
+	width: 225px;
+}
+
+.fields{
+	margin-bottom: 25px;
+}
+
+.submit{
+	margin-left: 375px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h2{
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 0px;
+}
+
+h1{
+	margin: 0 auto;
+	width: 600px;
+	font-size: 80px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
