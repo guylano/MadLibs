@@ -10,21 +10,16 @@
   
 <?php
     
-    $Kunnen['value'] = $_REQUEST['Kunnen'];
+    $Dier['value'] = $_REQUEST['Dier'];
     $Persoon['value'] = $_REQUEST['Persoon'];
-    $favorietGetal['value'] = $_REQUEST['favorietGetal'];
-    $Vakantie['value'] = $_REQUEST['Vakantie'];
-    $BesteEigenschap['value'] = $_REQUEST['BesteEigenschap'];
-    $SlechtsteEigenschap['value'] = $_REQUEST['SlechtsteEigenschap'];
-    $Overkomen['value'] = $_REQUEST['Overkomen'];
+    $Land['value'] = $_REQUEST['Land'];
+    $Verveelt['value'] = $_REQUEST['Verveelt'];
+    $Speelgoed['value'] = $_REQUEST['Speelgoed'];
+    $Spijbelen['value'] = $_REQUEST['Spijbelen'];
+    $Kopen['value'] = $_REQUEST['Kopen'];
+    $Bezigheid['value'] = $_REQUEST['Bezigheid'];
+    
 
-    $Kunnen['name'] = 'Kunnen';
-    $Persoon['name'] = 'Persoon';
-    $favorietGetal['name'] = 'favorietGetal';
-    $Vakantie['name'] = 'Vakantie';
-    $BesteEigenschap['name'] = 'BesteEigenschap';
-    $SlechtsteEigenschap['name'] = 'SlechtsteEigenschap';
-    $Overkomen['name'] = 'Overkomen';
 
 ?>
 <body>
@@ -36,7 +31,7 @@
         </div>
         <h2>Er heerst paniek...</h2>
         <p class='content'>
-            <?php print('Er zijn veel mensen die niet kunnen '.$Kunnen['value'].'. Neem nou '.$Persoon['value'].'. Zelfs met de hulp van een '.$Vakantie['value'].' of zelfs '.$favorietGetal['value'].' kan '.$Persoon['value'].' niet '.$Kunnen['value'].'. Dat heeft niet te maken met een gebrek aan '.$SlechtsteEigenschap['value'].', maar met een te veel aan '.$BesteEigenschap['value'].'. Te veel '.$BesteEigenschap['value'].' leidt tot '.$Overkomen['value'].' en dat is niet goed als je wilt '.$Kunnen['value'].'., Helaas voor '.$Persoon['value']);
+            <?php print('text');
             ?>
             
         </p>
