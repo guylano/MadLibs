@@ -1,15 +1,11 @@
 <!doctype HTML>
-<html>
+<html lang="nl">
 <head>
     <meta charset="utf-8"/>
     <title>Mad Libs</title>
-    <link rel="stylesheet" type="text/css" href="MadLibs.css">
-    
+    <link rel="stylesheet" type="text/css" href="MadLibs.css"> 
 </head>
-
-  
-<?php
-    
+<?php  
     $Dier['value'] = $_REQUEST['Dier'];
     $Persoon['value'] = $_REQUEST['Persoon'];
     $Land['value'] = $_REQUEST['Land'];
@@ -18,9 +14,6 @@
     $Spijbelen['value'] = $_REQUEST['Spijbelen'];
     $Kopen['value'] = $_REQUEST['Kopen'];
     $Bezigheid['value'] = $_REQUEST['Bezigheid'];
-    
-
-
 ?>
 <body>
     <h1>MAD LIBS</h1>
@@ -40,9 +33,8 @@
                 "Ja, da'."'".'s leuk en aardig, maar hoe moet ik in de tussentijd '.$Bezigheid['value'].' leren?"<br><br>
                 "Maar Sire, daar kunt u toch uw '.$Kopen['value'].' voor gebruiken"<br><br>
                 "'.$Persoon['value'].', je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."<br><br>
-                "Mij '.$Verveelt['value'].', Sire."');
+                "'.$Verveelt['value'].', Sire."');
             ?>
-            
         </p>
         <div class="footer">
             <p class="foottext">©Deze website is gemaakt door Guylano in 2022</p>

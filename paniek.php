@@ -1,6 +1,5 @@
-
 <!doctype HTML>
-<html>
+<html lang="nl">
 <head>
     <meta charset="utf-8"/>
     <title>Mad Libs</title>
