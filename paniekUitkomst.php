@@ -31,7 +31,16 @@
         </div>
         <h2>Er heerst paniek...</h2>
         <p class='content'>
-            <?php print('text');
+            <?php print('Er heerst paniek in het koninkrijk '.$Land['value'].'. Koning '.$Spijbelen['value'].' is ten einde raad en als koning '.$Spijbelen['value'].' ten einde raad is. dan roept hij zijn ten-einde-raadsheer '.$Persoon['value'].'.
+                "<br><br>
+                '.$Persoon['value'].'! Het is een ramp! Het is een schande!"<br><br>
+                "Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br><br>
+                "Mijn '.$Dier['value'].' is verdwenen! Zo maar zonder waarschuwing. En ik had net '.$Speelgoed['value'].' voor hem gekocht!"<br><br>
+                "Majesteit, uw '.$Dier['value'].' komt vast vanzelf weer terug?"<br><br>
+                "Ja, da'."'".'s leuk en aardig, maar hoe moet ik in de tussentijd '.$Bezigheid['value'].' leren?"<br><br>
+                "Maar Sire, daar kunt u toch uw '.$Kopen['value'].' voor gebruiken"<br><br>
+                "'.$Persoon['value'].', je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."<br><br>
+                "Mij '.$Verveelt['value'].', Sire."');
             ?>
             
         </p>
