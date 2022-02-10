@@ -18,14 +18,6 @@
     $SlechtsteEigenschap['value'] = $_REQUEST['SlechtsteEigenschap'];
     $Overkomen['value'] = $_REQUEST['Overkomen'];
 
-    $Kunnen['name'] = 'Kunnen:>';
-    $Persoon['name'] = 'Persoon';
-    $favorietGetal['name'] = 'favorietGetal';
-    $Vakantie['name'] = 'Vakantie';
-    $BesteEigenschap['name'] = 'BesteEigenschap';
-    $SlechtsteEigenschap['name'] = 'SlechtsteEigenschap';
-    $Overkomen['name'] = 'Overkomen';
-
 ?>
 <body>
     <h1>MAD LIBS</h1>
@@ -41,7 +33,7 @@
             
         </p>
         <div class="footer">
-            <p class="foottext">Deze website is gemaakt door Guylano</p>
+            <p class="foottext">©Deze website is gemaakt door Guylano in 2022</p>
         </div>
     </div>
 </body>

@@ -32,8 +32,8 @@
         <h2>Er heerst paniek...</h2>
         <p class='content'>
             <?php print('Er heerst paniek in het koninkrijk '.$Land['value'].'. Koning '.$Spijbelen['value'].' is ten einde raad en als koning '.$Spijbelen['value'].' ten einde raad is. dan roept hij zijn ten-einde-raadsheer '.$Persoon['value'].'.
-                "<br><br>
-                '.$Persoon['value'].'! Het is een ramp! Het is een schande!"<br><br>
+                <br><br>
+                "'.$Persoon['value'].'! Het is een ramp! Het is een schande!"<br><br>
                 "Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"<br><br>
                 "Mijn '.$Dier['value'].' is verdwenen! Zo maar zonder waarschuwing. En ik had net '.$Speelgoed['value'].' voor hem gekocht!"<br><br>
                 "Majesteit, uw '.$Dier['value'].' komt vast vanzelf weer terug?"<br><br>
@@ -45,7 +45,7 @@
             
         </p>
         <div class="footer">
-            <p class="foottext">Deze website is gemaakt door Guylano</p>
+            <p class="foottext">©Deze website is gemaakt door Guylano in 2022</p>
         </div>
     </div>
 </body>

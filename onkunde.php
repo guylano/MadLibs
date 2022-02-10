@@ -47,7 +47,7 @@
   </form>
 
   <div class="footer">
-    <p class="foottext">Deze website is gemaakt door Guylano</p>
+    <p class="foottext">©Deze website is gemaakt door Guylano in 2022</p>
   </div>
   </div>
 </body>
